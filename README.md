@@ -123,5 +123,9 @@ POST /generate_ticket
 
 Existen 2 clases de test para testear la anonimización de la información de los usuarios y del servicio.
 
+## ✅ Testeo
+
+La respuesta a la pregunta cloud se encuentra en la ruta prueba/respuesta_cloud.docx en el que se detalla la arquitectura propuesta
+
 ## ✨ Autor
 Desarrollado por Unai Mendiondo como prueba técnica para posición Capgemini.
