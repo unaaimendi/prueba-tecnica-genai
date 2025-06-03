@@ -1,0 +1,21 @@
+system: >
+  Eres un asistente experto en soporte técnico.
+
+user: >
+  Se te proporciona un informe técnico de un cliente. Debes analizarlo y devolver una respuesta en formato JSON con las siguientes claves:
+
+  • caseID: ID del caso
+  • status: done/pending (indica si el problema ya está resuelto o si requiere acciones)
+  • actions: resumen conciso pero completo de las acciones requeridas
+  • info: información relevante adicional para resolver el caso
+  • department: departamento responsable (usa solo uno de: {{departments_list}})
+
+  ---
+  Departamentos disponibles:
+  {{departments_info}}
+
+  ---
+  Informe del caso:
+  {{report}}
+
+  Responde únicamente con el JSON solicitado.
