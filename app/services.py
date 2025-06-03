@@ -8,16 +8,23 @@ import os
 import json
 import yaml
 
-
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
-
 def load_prompt(path: str, replacements: dict) -> dict:
+    """
+    Carga un prompt desde un archivo YAML y aplica sustituciones en los campos 'system' y 'user'.
+
+    Args:
+        path (str): Ruta al archivo YAML que contiene los mensajes del prompt.
+        replacements (dict): Diccionario con las variables a sustituir en los mensajes.
+
+    Returns:
+        dict: Diccionario con dos claves, 'system' y 'user', que contienen los mensajes procesados.
+    """
     with open(path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
-    # Reemplaza las variables en los mensajes usando string.Template
     return {
         "system": Template(data["system"]).substitute(replacements),
         "user": Template(data["user"]).substitute(replacements),
@@ -25,6 +32,18 @@ def load_prompt(path: str, replacements: dict) -> dict:
 
 
 def generate_ticket_from_openai(case_id: str) -> TicketResponse:
+    """
+    Genera un ticket a partir del informe de un caso utilizando un modelo de lenguaje (OpenAI GPT).
+
+    Args:
+        case_id (str): ID del caso para el cual se generará el ticket.
+
+    Returns:
+        TicketResponse: Objeto que representa el ticket generado a partir del informe anonimizado.
+
+    Raises:
+        ValueError: Si no se encuentra el caso con el ID proporcionado o si la respuesta de OpenAI es inválida.
+    """
     cases: list[Case] = load_cases()
     departments: list[Department] = load_departments()
 
@@ -36,7 +55,6 @@ def generate_ticket_from_openai(case_id: str) -> TicketResponse:
     dept_info = "\n".join([f"- {d.departmentID}: {d.description}" for d in departments])
     dept_ids = ", ".join([d.departmentID for d in departments])
 
-    # Cargar el prompt desde YML
     prompt_messages = load_prompt(
         "prompt/ticket_prompt.yml",
         {

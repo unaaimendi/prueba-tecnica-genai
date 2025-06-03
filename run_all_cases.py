@@ -22,7 +22,7 @@ server = subprocess.Popen(
 )
 
 try:
-    print("🕐 Esperando a que el servidor arranque...")
+    print("Esperando a que el servidor arranque...")
     time.sleep(3)
 
     with open(CASES_PATH, "r", encoding="utf-8") as f:
@@ -47,7 +47,7 @@ try:
             with open(result_path, "w", encoding="utf-8") as f_out:
                 json.dump(content, f_out, ensure_ascii=False, indent=2)
 
-            print(f"✅ Caso {case_id} procesado correctamente")
+            print(f"Caso {case_id} procesado correctamente")
 
         except Exception as e:
             # Resultado de error
@@ -58,12 +58,12 @@ try:
             }
             with open(result_path, "w", encoding="utf-8") as f_out:
                 json.dump(error_result, f_out, ensure_ascii=False, indent=2)
-            print(f"❌ Error en caso {case_id}: {e}")
+            print(f"Error en caso {case_id}: {e}")
 
 finally:
-    print("🛑 Terminando servidor...")
+    print("Terminando servidor...")
     try:
         os.killpg(os.getpgid(server.pid), signal.SIGTERM)
     except ProcessLookupError:
-        print("⚠️ El servidor ya estaba terminado.")
-    print("✅ Todo terminado.")
+        print("El servidor ya estaba terminado.")
+    print("Todo terminado.")

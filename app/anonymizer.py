@@ -1,13 +1,13 @@
 import re
 import spacy
 
-# Para detección de entidades nombradas
-nlp = spacy.load("es_core_news_md")  # para español
+# Carga el modelo de lenguaje spaCy
+nlp = spacy.load("es_core_news_md")
 
 PII_PATTERNS = {
-    "email": r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+",
-    "phone": r"\b(?:\+?\d{1,3}[\s-]?)?(?:\(?\d{2,4}\)?[\s-]?)?\d{3,4}[\s-]?\d{3,4}\b",
-    "dni": r"\b\d{7,8}[A-Za-z]\b"
+    "email": r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+",  # correos electrónicos
+    "phone": r"\b(?:\+?\d{1,3}[\s-]?)?(?:\(?\d{2,4}\)?[\s-]?)?\d{3,4}[\s-]?\d{3,4}\b",  # números de teléfono
+    "dni": r"\b\d{7,8}[A-Za-z]\b"  # DNI español
 }
 
 REPLACEMENTS = {
@@ -18,14 +18,25 @@ REPLACEMENTS = {
 }
 
 def anonymize(text: str) -> str:
-    # Paso 1: patrones regulares
+    """
+    Anonimiza un texto eliminando información personal identificable (PII), como correos electrónicos,
+    números de teléfono, DNI y nombres propios.
+
+    Args:
+        text (str): Texto de entrada que puede contener datos sensibles.
+
+    Returns:
+        str: Texto anonimizado en el que las entidades PII han sido reemplazadas por etiquetas como
+             [email], [phone], [id] y [name].
+    """
+    # Reemplazar patrones
     for key, pattern in PII_PATTERNS.items():
         text = re.sub(pattern, REPLACEMENTS[key], text)
 
-    # Paso 2: usar spaCy para detectar nombres propios y entidades
+    # Detectar nombres propios y otras entidades
     doc = nlp(text)
     for ent in doc.ents:
-        if ent.label_ in {"PER", "ORG", "LOC"}:  # personas, organizaciones, lugares
+        if ent.label_ in {"PER", "ORG", "LOC"}:
             text = text.replace(ent.text, REPLACEMENTS["name"])
 
     return text
