@@ -1,0 +1,7 @@
+{
+  "caseID": "123456",
+  "status": "pending",
+  "actions": "Enviar el dispositivo al centro de soporte técnico para diagnóstico y reparación.",
+  "info": "El problema persiste a pesar de las pruebas realizadas, por lo que es necesario un análisis más profundo en el centro de soporte técnico.",
+  "department": "tech_support"
+}

@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Revisión del hardware de conectividad en el centro de reparación",
+  "info": "Cliente con problemas para conectarse a redes Wi-Fi, recomendado visita al centro de reparación para diagnóstico y posible reparación",
+  "department": "repair_center"
+}

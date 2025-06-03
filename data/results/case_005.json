@@ -1,0 +1,5 @@
+{
+  "caseID": "005",
+  "status": "error",
+  "error": "500 Server Error: Internal Server Error for url: http://localhost:8000/ticket"
+}

@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Visitar el centro de soporte técnico para un diagnóstico detallado y posible reinstalación del software",
+  "info": "El dispositivo no reconoce la tarjeta SIM después de una actualización reciente del software. Se ha intentado reiniciar el dispositivo y verificar la configuración de la red sin éxito.",
+  "department": "tech_support"
+}

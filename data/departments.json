@@ -1,0 +1,23 @@
+[
+    {
+      "departmentID": "tech_support",
+      "description": "El Departamento de Soporte Técnico se encarga de resolver problemas técnicos relacionados con el funcionamiento de los dispositivos, proporcionando asistencia para diagnósticos, reparaciones y asesoramiento técnico."
+    },
+    {
+      "departmentID": "repair_center",
+      "description": "El Centro de Reparaciones se ocupa de recibir, diagnosticar y reparar dispositivos físicos que presentan fallos. Este departamento maneja todas las reparaciones de hardware y el reemplazo de componentes defectuosos."
+    },
+    {
+      "departmentID": "customer_service",
+      "description": "El Servicio de Atención al Cliente se encarga de responder a consultas generales, gestionar garantías, proporcionar información sobre servicios y asegurarse de que los clientes estén satisfechos con el soporte recibido."
+    },
+    {
+      "departmentID": "software_support",
+      "description": "El Departamento de Soporte de Software asiste a los clientes con problemas relacionados con el software del dispositivo, incluyendo actualizaciones, configuraciones y problemas de compatibilidad."
+    },
+    {
+      "departmentID": "warranty_services",
+      "description": "El Departamento de Servicios de Garantía gestiona las reclamaciones de garantía, verificando la validez de las garantías y coordinando las reparaciones o reemplazos cubiertos por la garantía del producto."
+    }
+  ]
+  

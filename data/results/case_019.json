@@ -1,0 +1,7 @@
+{
+  "caseID": "12345",
+  "status": "pending",
+  "actions": "Enviar el dispositivo a nuestro centro de reparación para diagnóstico y reparación.",
+  "info": "El cliente reporta que su dispositivo se apaga repentinamente a pesar de mostrar carga completa de la batería. Se han realizado reinicios y actualizaciones sin éxito.",
+  "department": "repair_center"
+}

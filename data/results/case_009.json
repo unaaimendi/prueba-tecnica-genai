@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Llevar el dispositivo al centro de reparación para un diagnóstico completo.",
+  "info": "El dispositivo de José Castillo se queda congelado en la pantalla de inicio incluso al intentar arrancar en modo seguro.",
+  "department": "repair_center"
+}

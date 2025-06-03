@@ -1,0 +1,7 @@
+{
+  "caseID": "12345",
+  "status": "pending",
+  "actions": "Recomendar a María García que visite nuestro servicio técnico más cercano para un diagnóstico completo y posible reparación o reemplazo de la pantalla táctil.",
+  "info": "María García ha experimentado problemas con la pantalla táctil de su dispositivo durante tres días, a pesar de haber reiniciado el dispositivo y haber intentado reiniciarlo en modo seguro sin éxito.",
+  "department": "repair_center"
+}

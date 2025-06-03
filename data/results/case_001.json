@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Enviar el dispositivo a nuestro centro de reparación para un diagnóstico detallado. Utilizar el pin proporcionado por el cliente si es necesario.",
+  "info": "El cliente reporta que su dispositivo móvil no enciende a pesar de intentar cargarlo con diferentes cargadores y realizar algunos pasos básicos de solución de problemas.",
+  "department": "repair_center"
+}

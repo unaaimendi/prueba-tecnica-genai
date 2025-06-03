@@ -1,0 +1,36 @@
+INFO:     Will watch for changes in these directories: ['/Users/unai.mendiondo/prueba tecnica genai']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [70537] using WatchFiles
+INFO:     Started server process [70541]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55490 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55493 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55496 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55498 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55500 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55502 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55504 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55506 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55509 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55511 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55513 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55515 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55517 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55519 - "POST /ticket HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55522 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55524 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55526 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55528 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55530 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55536 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55542 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55544 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55546 - "POST /ticket HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55548 - "POST /ticket HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55550 - "POST /ticket HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [70541]
+INFO:     Stopping reloader process [70537]

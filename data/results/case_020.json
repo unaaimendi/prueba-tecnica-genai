@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Visitar el centro de soporte técnico para diagnóstico y reparación. Utilizar el PIN 9876 proporcionado por Laura si es necesario.",
+  "info": "El cliente reporta que su dispositivo no puede enviar mensajes de texto a pesar de haber verificado la configuración y la red.",
+  "department": "tech_support"
+}

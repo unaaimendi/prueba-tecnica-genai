@@ -1,0 +1,7 @@
+{
+  "caseID": "12345",
+  "status": "pending",
+  "actions": "Realizar una revisión detallada del micrófono y posiblemente reemplazarlo en el centro de reparación.",
+  "info": "El problema persiste a pesar de las pruebas realizadas, por lo que es necesario un análisis más profundo.",
+  "department": "repair_center"
+}

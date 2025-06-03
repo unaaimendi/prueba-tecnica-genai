@@ -1,0 +1,7 @@
+{
+  "caseID": "123456",
+  "status": "pending",
+  "actions": "Recomendar una visita al centro de soporte técnico para un diagnóstico más profundo del hardware de conectividad.",
+  "info": "Sofía Rodríguez informó que su dispositivo no se conecta a Bluetooth a pesar de haber verificado que el Bluetooth esté activado y que no haya problemas con los dispositivos emparejados. Se le pidió que intentara emparejar otros dispositivos, pero el problema persiste.",
+  "department": "tech_support"
+}

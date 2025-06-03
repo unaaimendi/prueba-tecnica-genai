@@ -1,0 +1,98 @@
+[
+    {
+        "caseID": "001",
+        "report": "Llamada recibida de Juan Pérez. El cliente reporta que su dispositivo móvil no enciende desde esta mañana. Intentó cargarlo durante varias horas con dos cargadores diferentes, pero no hubo ningún indicio de carga. Probamos algunos pasos básicos de solución de problemas, incluyendo mantener presionado el botón de encendido durante 30 segundos y probar con otro adaptador de corriente, pero el dispositivo sigue sin mostrar signos de vida. Hemos solicitado al cliente que envíe su dispositivo a nuestro centro de reparación para un diagnóstico más detallado. Nos ha dejado el pin para usarlo en caso necesario (0914) Se ha abierto un caso de servicio con referencia interna."
+    },
+    {
+        "caseID": "002",
+        "report": "Cliente María García indica que su pantalla táctil no responde adecuadamente desde hace tres días. Ha reiniciado el dispositivo varias veces, pero el problema persiste. Le pedimos que intente reiniciar el dispositivo en modo seguro para ver si alguna aplicación de terceros está causando el problema, pero el comportamiento sigue igual. Recomendamos que María visite nuestro servicio técnico más cercano para un diagnóstico completo y posible reparación o reemplazo de la pantalla táctil. Se ha documentado el problema y se ha proporcionado una referencia para el seguimiento."
+    },
+    {
+        "caseID": "003",
+        "report": "Carlos López llamó para preguntar sobre la actualización de software de su dispositivo. Confirmó que ha estado recibiendo notificaciones de actualización pero no estaba seguro de cómo proceder. Le guiamos a través del proceso de actualización paso a paso y confirmamos que su dispositivo ahora está ejecutando la última versión del software. No se requieren más acciones en este caso. Carlos agradeció la asistencia y mencionó que el dispositivo parece funcionar mejor tras la actualización. Caso cerrado sin necesidad de intervención adicional."
+    },
+    {
+        "caseID": "004",
+        "report": "Ana Martínez nos contactó para hacer una consulta sobre la garantía de su dispositivo. Verificamos en nuestra base de datos y confirmamos que su garantía aún está vigente por seis meses más con referencia C196683H. Explicamos los pasos que debe seguir si necesita enviar el dispositivo para reparación bajo garantía. Ana expresó su agradecimiento por la información detallada y aclaró que no tiene problemas con el dispositivo en este momento, solo quería asegurarse de entender la cobertura de la garantía. No se requieren acciones adicionales."
+    },
+    {
+        "caseID": "005",
+        "report": "Pedro González reporta que su batería se descarga rápidamente, incluso cuando no está usando el dispositivo de manera intensiva. Realizamos un diagnóstico remoto y observamos que el consumo de batería parece anormal. Le sugerimos que cierre aplicaciones en segundo plano y reduzca el brillo de la pantalla, pero la batería sigue agotándose rápidamente. Le hemos recomendado un reemplazo de batería y hemos creado una solicitud de servicio para que el técnico revise y reemplace la batería defectuosa. Pedro ha aceptado enviar el dispositivo para la intervención técnica."
+    },
+    {
+        "caseID": "006",
+        "report": "Llamada de Laura Fernández por problemas de conexión Wi-Fi intermitente en su dispositivo. Le pedimos que reiniciara el router y el dispositivo, pero el problema persiste. También verificamos la configuración de red del dispositivo y no encontramos nada fuera de lo común. Le sugerimos que intente conectarse a otra red Wi-Fi para descartar problemas con su proveedor de internet, pero el problema continúa. Finalmente, hemos sugerido que Laura lleve su dispositivo a nuestro centro de soporte para una revisión más exhaustiva, incluyendo una posible revisión o reemplazo de la antena Wi-Fi. Se ha documentado el caso y proporcionado una referencia para seguimiento."
+    },
+    {
+        "caseID": "007",
+        "report": "Llamada recibida de Javier Morales. El cliente menciona que su dispositivo se reinicia aleatoriamente varias veces al día. Hemos intentado una restauración de fábrica, pero el problema persiste. Se recomienda que Javier envíe su dispositivo al centro de reparación para una revisión más exhaustiva del hardware y posible reemplazo de componentes defectuosos."
+    },
+    {
+        "caseID": "008",
+        "report": "Cliente Silvia Romero reporta que el micrófono de su dispositivo no funciona correctamente durante las llamadas. Realizamos varias pruebas, incluyendo el uso de aplicaciones de grabación de voz y comprobación de la configuración del micrófono, pero el problema persiste. Se sugiere una visita al centro de reparación para revisar y posiblemente reemplazar el micrófono."
+    },
+    {
+        "caseID": "009",
+        "report": "José Castillo nos llamó para informar que su dispositivo se queda congelado en la pantalla de inicio. Le pedimos que intente arrancar el dispositivo en modo seguro, pero sigue congelado. Recomendamos que José lleve el dispositivo al centro de reparación para un diagnóstico completo. Se ha abierto un caso de servicio."
+    },
+    {
+        "caseID": "010",
+        "report": "Llamada de Laura Méndez sobre problemas de sincronización de su correo electrónico con el dispositivo. Le guiamos a través de la configuración de su cuenta de correo y verificamos que los servidores están correctamente configurados. El problema parece haberse resuelto tras la reconfiguración. No se requieren acciones adicionales."
+    },
+    {
+        "caseID": "011",
+        "report": "Marta Sánchez informó que su dispositivo se sobrecalienta durante el uso normal. Realizamos una serie de pruebas y verificamos que el dispositivo se calienta excesivamente incluso cuando no está en uso. Hemos sugerido que envíe el dispositivo al centro de reparación para una evaluación del hardware, incluyendo la batería y los componentes internos."
+    },
+    {
+        "caseID": "012",
+        "report": "Ricardo Fernández se comunicó para preguntar sobre la ampliación de la garantía de su dispositivo. Confirmamos que su garantía actual vence en tres meses y le explicamos las opciones para extenderla. Ricardo agradeció la información y mencionó que considerará la ampliación. No se requieren más acciones en este momento."
+    },
+    {
+        "caseID": "013",
+        "report": "Llamada recibida de Alicia González. El cliente menciona que su dispositivo no reconoce la tarjeta SIM después de una actualización reciente del software. Hemos intentado reiniciar el dispositivo y verificar la configuración de la red, pero el problema persiste. Se recomienda que Alicia visite el centro de soporte técnico para un diagnóstico detallado y posible reinstalación del software."
+    },
+    {
+        "caseID": "014",
+        "report": "Cliente Manuel Torres reporta que la cámara de su dispositivo muestra una pantalla negra al intentar tomar fotos. Realizamos varios reinicios y comprobamos la configuración de la cámara, pero el problema continúa. Le sugerimos que envíe el dispositivo al centro de reparación para revisar y posiblemente reemplazar el módulo de la cámara."
+    },
+    {
+        "caseID": "015",
+        "report": "Sofía Rodríguez llamó para informar que su dispositivo no se conecta a Bluetooth. Verificamos que el Bluetooth esté activado y que no haya problemas con los dispositivos emparejados. Le pedimos que intente emparejar otros dispositivos, pero el problema persiste. Recomendamos una visita al centro de soporte técnico para un diagnóstico más profundo del hardware de conectividad."
+    },
+    {
+        "caseID": "016",
+        "report": "Llamada de Andrés Gutiérrez sobre pérdida de datos tras una restauración de fábrica. Explicamos que la restauración de fábrica elimina todos los datos a menos que se haya realizado una copia de seguridad previamente. Le asistimos en cómo recuperar datos desde su cuenta en la nube, si tenía copia de seguridad. No se requieren acciones adicionales."
+    },
+    {
+        "caseID": "017",
+        "report": "Mónica Díaz reporta que su dispositivo muestra mensajes de error de memoria llena, aunque no ha descargado nuevas aplicaciones recientemente. Le guiamos a través de la limpieza de caché y la eliminación de archivos temporales, pero el problema persiste. Recomendamos una visita al centro de soporte técnico para revisar posibles problemas de almacenamiento."
+    },
+    {
+        "caseID": "018",
+        "report": "Roberto Jiménez se comunicó para preguntar sobre las opciones de reciclaje de su antiguo dispositivo. Le proporcionamos información sobre nuestro programa de reciclaje y las ubicaciones de los puntos de recogida. Roberto agradeció la información y mencionó que planea reciclar su dispositivo próximamente. No se requieren más acciones."
+    },
+    {
+        "caseID": "019",
+        "report": "Llamada recibida de José Martín. El cliente menciona que su dispositivo se apaga repentinamente aunque la batería muestra carga completa. Probamos varios reinicios y actualizaciones, pero el problema persiste. Le sugerimos que envíe su dispositivo a nuestro centro de reparación. Se ha abierto un caso de servicio. Nota: El cliente dejó su contacto para seguimiento, 555-1234."
+    },
+    {
+        "caseID": "020",
+        "report": "Cliente Laura Ramos reporta que su dispositivo no puede enviar mensajes de texto. Realizamos una revisión de la configuración y verificamos la red, pero el problema continúa. Le pedimos que visite nuestro centro de soporte técnico. Adicionalmente, Laura mencionó que su PIN es 9876 por si es necesario durante la reparación."
+    },
+    {
+        "caseID": "021",
+        "report": "Miguel Ángel Pérez llamó para informar que su dispositivo tiene problemas para conectarse a redes Wi-Fi. Intentamos varias redes y el problema persiste. Recomendamos que Miguel visite nuestro centro de reparación para una revisión del hardware de conectividad. Nota: Correo electrónico del cliente para enviar actualizaciones: miguel.perez@mail.com."
+    },
+    {
+        "caseID": "022",
+        "report": "Llamada de Sonia Ruiz sobre aplicaciones que se cierran inesperadamente. Realizamos varias pruebas, incluyendo la desinstalación y reinstalación de las aplicaciones, pero el problema persiste. Le sugerimos que envíe su dispositivo al centro de soporte técnico. Sonia mencionó que su dirección es Calle Falsa 123, por si es necesario para el envío."
+    },
+    {
+        "caseID": "023",
+        "report": "Diego Hernández reporta que su dispositivo tiene problemas de rendimiento y se calienta demasiado. Realizamos un diagnóstico remoto y sugerimos varias soluciones, pero el problema persiste. Hemos recomendado un reemplazo de batería y una revisión completa en nuestro centro de reparación. Diego mencionó su número de contacto para seguimiento: 555-6789."
+    },
+    {
+        "caseID": "024",
+        "report": "Cliente Carmen López indica que su dispositivo no puede realizar copias de seguridad. Le asistimos en verificar la configuración y liberar espacio, pero el problema persiste. Recomendamos que Carmen visite nuestro centro de soporte técnico para una revisión detallada. Nota: PIN del cliente para acceso al dispositivo: 4321."
+    }
+]

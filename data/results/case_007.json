@@ -1,0 +1,7 @@
+{
+  "caseID": "123456",
+  "status": "pending",
+  "actions": "Enviar el dispositivo al centro de reparación para revisión exhaustiva del hardware y posible reemplazo de componentes defectuosos.",
+  "info": "El cliente experimenta reinicios aleatorios en su dispositivo a pesar de haber intentado una restauración de fábrica.",
+  "department": "repair_center"
+}

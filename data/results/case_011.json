@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Enviar el dispositivo al centro de reparación para una evaluación del hardware, incluyendo la batería y los componentes internos.",
+  "info": "El dispositivo se sobrecalienta durante el uso normal, incluso cuando no está en uso.",
+  "department": "repair_center"
+}

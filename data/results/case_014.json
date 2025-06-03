@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Enviar el dispositivo al centro de reparación para revisar y posiblemente reemplazar el módulo de la cámara.",
+  "info": "La cámara del dispositivo muestra una pantalla negra al intentar tomar fotos a pesar de haber realizado reinicios y comprobado la configuración.",
+  "department": "repair_center"
+}

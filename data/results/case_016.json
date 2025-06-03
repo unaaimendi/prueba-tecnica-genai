@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "done",
+  "actions": "Asistir a Andrés Gutiérrez en la recuperación de datos desde su cuenta en la nube",
+  "info": "La restauración de fábrica elimina todos los datos a menos que se haya realizado una copia de seguridad previamente",
+  "department": "tech_support"
+}

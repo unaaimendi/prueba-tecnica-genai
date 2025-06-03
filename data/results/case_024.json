@@ -1,0 +1,7 @@
+{
+  "caseID": "001",
+  "status": "pending",
+  "actions": "Revisar detalladamente la configuración de copias de seguridad, liberar espacio en el dispositivo, y verificar si hay algún problema de hardware. Se recomienda que Carmen visite el centro de soporte técnico para una revisión exhaustiva.",
+  "info": "El cliente indica que el problema persiste a pesar de verificar la configuración y liberar espacio. Se proporciona el PIN del cliente para acceder al dispositivo: 4321.",
+  "department": "tech_support"
+}
